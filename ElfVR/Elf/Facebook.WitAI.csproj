@@ -142,8 +142,8 @@
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Entities\WitEntityKeyword.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\CallbackHandlers\SimpleStringEntityHandler.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\Configuration\WitRequestOptions.cs" />
-    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioEncoding.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\UnityEventListeners\AudioEventListener.cs" />
+    <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Data\AudioEncoding.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Lib\MicDebug.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Events\WitTranscriptionEvent.cs" />
     <Compile Include="Assets\Oculus\Voice\Lib\Wit.ai\Scripts\Runtime\Interfaces\CustomTranscriptionProvider.cs" />
@@ -412,9 +412,6 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>

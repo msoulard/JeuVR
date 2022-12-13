@@ -79,8 +79,8 @@
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Surfaces\ISurface.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\PoseDetection\TransformRecognizerActiveState.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Models\TouchHandGrab\HandSphereMap.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Core\UniqueIdentifier.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\ITrackingToWorldTransformer.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Interaction\Core\UniqueIdentifier.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\PoseDetection\JointDistanceActiveState.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Input\OVRIntegration\SetDisplayRefresh.cs" />
     <Compile Include="Assets\Oculus\Interaction\Runtime\Scripts\Grab\FingerRawPinchAPI.cs" />
@@ -663,9 +663,6 @@
     </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@1.17.2\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
-    </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
